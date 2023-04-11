@@ -6,11 +6,13 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"]
+    },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        homeBg: "url('/images/background/bg.jpg')",
+        "homeBg-dark": "url('/images/background/bg-dark.jpg')",
       },
     },
   },
